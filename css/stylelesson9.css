@@ -1,0 +1,24 @@
+h2{
+    text-align: center;
+}
+
+p{
+    line-height: 500%; /* Satır aralıkları */
+    text-indent: 60px; /* Paragraf başlangıç */
+}
+
+/* body{
+    background-color: aquamarine;
+    color: teal;
+    background-image: url(/Image/sampleimage2.png);
+    background-repeat: no-repeat;      Resim tekrarlama özelliği 
+    background-position: 50% 25%;      Resim pozisyonunu belirler
+} */
+
+#first{
+    color: tomato;
+}
+
+.firstclass{
+    color: violet;
+}

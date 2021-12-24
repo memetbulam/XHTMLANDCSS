@@ -1,0 +1,71 @@
+
+/*.gallery{
+    margin: 10px;
+    border: 1px solid black;
+    float: left;
+    width: 250px;
+    height: 400px;
+}
+.desc{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+.gallery > img{
+    width: 100%;
+}
+.gallery:hover{
+    border: 2px solid teal;
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0);
+} */
+/*
+a[target]{
+    padding: 10px;
+    background-color: darkgreen;
+    color: white;
+    text-decoration: none;
+}
+
+a[target="_self"]{
+    padding: 10px;
+    background-color: teal;
+    color: white;
+    text-decoration: none;
+    
+}
+a[title~="Link1"]{
+    padding: 10px;
+    background-color: yellowgreen;
+    color: white;
+    text-decoration: none;
+    
+}
+p{
+    margin: 30px;
+} */
+
+[class |="header"]{ /* Sadece headerin tek olduğu classlar için geçerlidir */
+    padding: 10px;
+    background-color: darkgreen;
+    color: white;
+    text-decoration: none;
+}
+[class ^="header"]{ /* İçerisinde header geçen tüm classları şekillendirir. 2. kelime geçerli değildir */
+    padding: 10px;
+    background-color: darkgreen;
+    color: white;
+    text-decoration: none;
+}
+[class $="header"]{ /* İçerisinde 1. ve 2. parametresi header olanları getirir. */
+    padding: 10px;
+    background-color: darkgreen;
+    color: white;
+    text-decoration: none;
+}
+[class *="head"]{ /* harf bazlı çalışır head gördüğü hepsini etkiler */
+    padding: 10px;
+    background-color: darkgreen;
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,28 @@
+
+button[type="button"]{
+    width: 50%;
+    background-color: rgb(0, 85, 18);
+    color: white;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    border-radius: 2px;
+    /* cursor: pointer; El işareti çıkmasını sağlar */
+    /*cursor: alias;*/
+    /*cursor: all-scroll;*/
+    /*cursor: cell;*/
+    /*cursor: col-resize;*/
+    /*cursor: crosshair;*/
+    /*cursor: e-resize;*/
+    /*cursor: grab;*/
+    /*cursor: grabbing;*/
+    /*cursor: move;*/
+    cursor: n-resize;
+}
+button[type="button"]:hover{
+    background-color: rgb(0, 170, 37);
+    border-radius: 5px;
+}
+h2{
+    cursor: text;
+}

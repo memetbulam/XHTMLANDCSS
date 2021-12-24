@@ -1,0 +1,18 @@
+h1.center{
+    text-align: center;
+}
+
+.style-table th{
+    background-color: crimson;
+    color: white;
+}
+
+.style-table{
+    border: 1px solid black;
+}
+
+.style-table th, td{
+    border: 1px solid black;
+    margin:15px;
+    padding: 10px;
+}

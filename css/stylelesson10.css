@@ -1,0 +1,35 @@
+
+
+.change{
+    border: 2px solid black;
+    background-color: cornflowerblue;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    padding-left: 25px;
+}
+
+#second{
+    border: 2px solid black;
+    background-color: crimson;
+    margin: 70px;
+    padding: 25px;
+}
+
+/* Margin dış boşluk
+   Padding iç boşuk bırakır. */
+
+.link a{
+    color: crimson;
+    text-decoration: none;
+}
+/* Mouse üzerine gelince */
+.link a:hover{
+    color: darkgreen;
+    text-decoration: underline;
+}
+/* Linke tıklandığı anda */
+.link a:active{
+    background-color: darkorange;
+    color: blue;
+    text-decoration: none;
+}

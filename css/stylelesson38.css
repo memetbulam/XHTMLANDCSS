@@ -1,0 +1,32 @@
+
+.tooltip{
+    position: relative; /* Eski konumuna göre yeni konum veriyoruz */
+    display: inline-block;
+    margin-left: 20%;
+    width: 100%;
+}
+input{
+    border: 2px solid black;
+    padding: 9px;
+    width: 10%;
+}
+.tp-text{
+    background-color:darkgray ;
+    margin-left: 20px;
+    padding: 10px 50px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    visibility: hidden; /* Görünülülüğünü gizledik */
+}
+.tooltip:hover .tp-text{
+    visibility: visible; /* Görünülülüğünü açtık */
+}
+.tp-text::after{
+    content: "";
+    position: absolute;
+    border: 8px;
+    border-style: solid;
+    border-color: transparent darkgrey transparent transparent;
+    right: 100%;
+}

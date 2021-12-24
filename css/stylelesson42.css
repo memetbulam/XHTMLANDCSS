@@ -1,0 +1,22 @@
+h3{
+    font-size: 24px;
+}
+h4{
+    font-size: 20px;
+}
+
+body{
+    counter-reset: section;
+}
+h3{
+    counter-reset: subsection; /* Sayıcı sıfırdan başlat */
+}
+
+h3::before{
+    counter-increment: section;
+    content: counter(section) '. ';
+}
+h4::before{
+    counter-increment: subsection;
+    content: counter(subsection) '. ';
+}

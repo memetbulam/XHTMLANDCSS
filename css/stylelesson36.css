@@ -1,0 +1,67 @@
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    /* overflow: hidden;  Kutunun dışına çıkınca gizle */
+    background-color: rgb(130, 130, 130);
+    position: fixed; /* Menüyü sabitle */
+    top: 0;
+    width: 100%;
+}
+li{
+    float: left;
+    border-right: 1px solid rgb(197, 197, 197);
+}
+li:last-child{ /* Son çocuk */
+    border-right: none;
+}
+li a{
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    text-decoration: none;
+    display: block; /* Tüm satırı kendine ayırır */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+body{
+    margin: 0;
+}
+
+li a.active{
+    background-color: rgb(0, 0, 0);
+}
+
+li a:hover:not(.active){
+    background-color: rgb(0, 0, 0);
+}
+div{
+    padding: 20px;
+    margin-top: 50px;
+}
+@media screen and (max-width:700px) {
+    ul li{
+        float: none;
+    }
+}
+
+.dp-content{
+    display: none;
+    position: absolute;  /*Sayfadan bağımsız hale getirir */
+    background-color: rgb(130, 130, 130);
+    z-index: 1;
+    box-shadow: 0 8px 16px 0 black;
+    padding: 0;
+    margin: 0;
+    width: 275px;
+}
+
+.dp-content a{
+    border-bottom: 1px solid rgb(197, 197, 197);;
+}
+.dp-content a:last-child{
+    border-bottom: none;
+}
+
+.dropdown:hover .dp-content{
+    display: block;
+}

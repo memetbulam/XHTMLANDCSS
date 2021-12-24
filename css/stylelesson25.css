@@ -1,0 +1,33 @@
+
+.main{
+    border: 2px solid black;
+    background-color: darkgray;
+    width: 1300px;
+    height: 500px;
+    margin:5px;
+}
+.main > .box{
+    border: 2px solid black;
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    float:left;
+    font-size: 30px;
+    padding: 10px;
+    
+}
+.main > .box2{
+    border: 2px solid black;
+    background-color: crimson;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    float: left;
+    font-size: 30px;
+    padding: 10px;
+    /*position: relative;  Eski konumuna göre yeni bir konum belirleme.Diğer nesneler aynı konumdaymış gibi davranır. */
+    position: absolute; /* Yeni konumuna göre bir konum belirleme. Sayfadan bağımsız yapar */
+    top:59px;
+    left: 800px;
+}

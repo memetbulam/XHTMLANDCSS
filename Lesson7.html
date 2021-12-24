@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>Lesson 7 / FORM Kullanımı</title>
+    </head>
+    <body>
+        <form name="Frm1" id="Frm1" method="POST" action="#">
+            <p><input type="text" name="usernamedisable" id="usernamedisable" autocomplete="off" disabled="disabled" /></p>
+            <p><input type="text" name="username" id="username" autocomplete="off" maxlength="8" placeholder="Kullanıcı adı gir.."/></p>
+            <p><input type="password" name="pass" id="pass" placeholder="Şifre gir..."/></p>
+            <p><input type="email" name="email" id="email" size="40" onclick="alert('E posta adresi girin.');" /></p>
+            <p><input type="hidden" value="gizlibirveri"/></p>
+            <p><input type="url" name="url" id="url" /></p>
+            <p><input type="tel" name="tel" id="tel" /></p>
+            <p><input type="search" name="search" id="search" /></p>
+            <p><textarea name="metin" id="metin" rows="5" cols="30"></textarea></p>
+            <p>
+                <label>
+                <input type="checkbox" value="0" name="chck1" id="chckgr1"/>Bay
+                </label>
+                <label>
+                <input type="checkbox" value="1" name="chck1"id="chckgr2"/>Bayan
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" value="0" name="rd1" id="rd1"/>Bay
+                </label>
+                <label>
+                    <input type="radio" value="1" name="rd1"id="rd2"/>Bayan
+                </label>
+            </p>
+            <p>
+                <select>
+                    <option value="0" selected>Seçiniz..</option>
+                    <option value="1">XHTML</option>
+                    <option value="2">PHP</option>
+                    <option value="3">CSS</option>
+                    <option value="4">HTML5</option>
+                </select>
+            </p>
+
+            <input type="submit"  value="send"/>
+            <input type="button" value="Buton"/>
+            <input type="reset"/>
+        </form>
+    </body>
+</html>

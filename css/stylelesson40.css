@@ -1,0 +1,58 @@
+.frm-group{
+    background-color: rgb(80, 80, 80);
+    padding: 10px;
+    width: 25%;
+    border-radius: 10px;
+}
+label{
+    padding: 5px;
+    color: white;
+    display: block;
+}
+input[type="text"]{
+    width: 100%;
+    padding: 5px 0;
+    margin: 5px 0;
+    display: block;
+    border:1px solid rgb(32, 32, 32);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+button[type="button"]{
+    width: 100%;
+    margin: 10px 0 0 0;
+    padding: 5px 0;
+    background-color: rgb(121, 121, 121);
+    border:none;
+    border-radius: 5px;
+    cursor: pointer; /* Butonun üzerine gelince el işareti çıkarır */
+}
+
+button[type="button"]:hover{
+    background-color: rgb(153, 152, 152);
+    border-radius: 10px;
+}
+input[type="text"]:focus{
+    box-shadow: rgb(32, 32, 32);
+    border-radius: 10px;
+}
+select{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+#search{
+    padding: 6px;
+}
+textarea{
+    width: 100%;
+    height: 10%;
+    padding: 5px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid rgb(32, 32, 32);
+    font-size: 15px;
+    background-color: rgb(219, 219, 219);
+    resize: none; /* tasarımı kitler */
+}
